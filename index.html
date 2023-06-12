@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"/>
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="carousel.css">
+        <title>Seus Cachos</title>
+    </head>
+    <body>
+       <body>
+    <header>
+        <nav class="navigation">
+            <a href="#top" class="logo">S<span>eus</span> C<span>achos</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#top">Home</a></li>
+                <li class="nav-item"><a href="#sobre">Sobre</a></li>
+                <!-- <li class="nav-item"><a href="#">Menu</a></li> -->
+                <a class="btn-menu" href="login.html">Login</a></li>
+                <!-- <div class="menu">
+                    <a class="btn-menu" href="login.html">
+                    Login
+                </a></div> -->
+                <!-- <i class='bx bx-search'></i> -->
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+        <!-- <div class="center">
+            <div class="logo">
+                <h2>Seus Cachos</h2>
+            </div><--logo--
+            <div class="menu">
+                <a href="#">
+                    Home
+                </a>
+                <a href="#">
+                    Central
+               </a>
+               <----
+                <a href="#">
+                    Contato
+                --
+                </a>
+                <a class="btn-menu" href="login.html">
+                    Login
+                </a>
+            </div><--menu--
+            <div class="menu-mobile">
+                <i class="fas fa-bars menus"></i>
+                <div class="menu-items">
+                    <a href="">Home</a>
+                    <a href="">Sobre</a>
+                    <a href="">Contato</a>
+                </div>
+            </div>
+        </div>--center--
+       </header>-->
+  
+
+       <section class="main">
+        <div class="center">
+            <div class="main_cta">
+            <h2>Bem-vindo a Seus Cachos</h2>
+            <p>Você faz parte do time? Entre Aqui</p>
+            <!--<button>Login</button>-->
+            <input type="button" class="main_cta_button" onclick="newDoc()" value="Login">
+        </div><!--main-cta-->
+        <div class="diferenciais">
+            <div class="diferencial-single">
+                <img src="img/marcos.png" class="funcionario" alt="Funcionário Marcos"/>
+                <!--<i class="fas fa-anchor"></i>-->
+                <h2>Marcos</h2>
+                <p>Marcos é um cabeleireiro excelente, sua especialidade é Corte e Escova.</p>
+            </div><!--diferencial-single-->
+            <div class="diferencial-single">
+                <img src="img/claudia.png" class="funcionario" alt="Funcionária Claudia"/>
+                <!--<i class="fas fa-anchor"></i>-->
+                <h2>Claudia</h2>
+                <p>Claudia é uma cabeleireira incrível, sua especialidade é Hidratação e Pigmentação.</p>
+            </div><!--diferencial-single-->
+            <div class="diferencial-single">
+                <img src="img/alexandra.png" class="funcionario" alt="Funcionária Alexandra"/>
+                <!--<i class="fas fa-anchor"></i>-->
+                <h2>Alexandra</h2>
+                <p>Alexandra é uma cabeleireira fantástica, atende a qualquer serviço desejado. </p>
+                <!--
+            </div>diferencial-single
+            <div class="diferencial-single">
+                <i class="fas fa-anchor"></i>
+                <h2>Lorem ipsum</h2>
+                <p>ana ana é um real a palma da banana ana ana é um real a palma da banana</p>-->
+            <!--</div>diferencial-single-->
+        </div><!--diferenciais-->
+        </div><!--center-->
+       </section><!--main-->
+
+       <section class="sobre" id="sobre">
+        <div class="center">
+            <div class="chamada-sobre">
+                <h2>Sobre a Seus Cachos</h2>
+                <p>A Seus Cachos é um salão de cabeleireiros especialista em Cachos. <br /> Oferecemos serviços de qualidade para pessoas que querem dar vida à suas madeixas.</p>
+                <!--<p>A empresa Seus Cachos busca inovar no mercado, com o serviço inpecável que atender o público cacheado, 
+                </p>-->
+            </div><!--chamadasobre-->
+            <div class="conteudo-sobre">
+                <p>Buscamos inovar no mercado com nossas qualidades, sempre superando as expectativas do cliente.
+                    <br />
+                    <span><i class="fas fa-check-double"></i>Ambiente saudável.<br /></span>
+                    <span><i class="fas fa-check-double"></i>Atendimento ao cliente.<br /></span>
+                    <span><i class="fas fa-check-double"></i>Serviço impecável.<br /></span>
+                    <span><i class="fas fa-check-double"></i>Equipe especializada.<br /></span>
+                </p>
+                    <!--<p>A Seus Cachos além de uma empresa, é uma familía,</p>-->
+            </div><!--conteudo-sobre-->
+        </div><!--center-->
+       </section><!--sobre-->
+
+       <section class="conquistas">
+        <div class="center">
+            <div class="conquista-single">
+                <h2 onclick="verfotos()">Ver Fotos</h2>
+                <span onclick="verfotos()"><i class='bx bxs-down-arrow-circle bx-tada'></i></span>
+                <!-- <p>Satisfação do Cliente</p> -->
+            </div>
+            <!-- <div class="conquista-single">
+                <h2>+100 mil</h2>
+                <p>Alunos</p>
+            </div>
+            <div class="conquista-single">
+                <h2>+100 mil</h2>
+                <p>Alunos</p>
+            </div>
+            <div class="conquista-single">
+                <h2>+100 mil</h2>
+                <p>Alunos</p>
+            </div> -->
+        </div>
+       </section>
+       <section id="hero">
+        <div class="hero-slider">
+          <div class="arrow prev">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+          </div>
+          <div class="arrow next">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+          </div>
+          <!-- Slider-wraper-start -->
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slide">
+                <img src="img/corte1.png" alt="Slide Image" class="slide-img">
+              </div>
+              <div class="slide">
+                <img src="img/haircurly.jpg" alt="Slide Image" class="slide-img">
+              </div>
+              <div class="slide">
+                <img src="img/haircurly.jpg" alt="Slide Image" class="slide-img">
+              </div>
+              <div class="slide">
+                <img src="img/haircurly.jpg" alt="Slide Image" class="slide-img">
+              </div>
+            </div>
+          </div>
+          <!-- Slider-wraper-end -->
+          <!-- Slider-controler-start -->
+          <div class="slider-controler">
+          </div>
+          <!-- Slider-controler-end -->
+        </div>
+      </section>
+      
+
+<!-- 
+       <section class="sobre-empreendedor">
+        <div class="center">
+
+            <div class="sobre-empreendedor-content">
+                 <h2>Fotos</h2>
+                <img class="sobre-empreendedor-img" src="img/vini_bg.jpg"/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                
+                </div>
+        </div>center
+       </section>sobre-empreendedor -->
+<!-- 
+       <section class="conquistas">
+      
+        <div class="conquista-single" style="width: 10%;margin-right: 5%">
+            <img src="img/vini_bg.jpg"/>
+            </div>
+            <div class="conquista-single" style="width: 10%;margin-right: 5%"></div>>
+                <img src="img/vini_bg.jpg"/>
+            </div>
+            <div class="conquista-single" style="width: 10%;margin-right: 5%"></div>>
+                <img src="img/vini_bg.jpg"/>
+            </div>
+            <div class="conquista-single" style="width: 10%;margin-right: 5%"></div>>
+                <img src="img/vini_bg.jpg"/>
+            </div>
+        </div>
+       </section> -->
+       <!-- <script src="scriptcarousel.js"></script> -->
+       <script src="scriptindex.js"></script>
+       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+       <script src="scriptcarousel.js"></script>
+ 
+       <!-- <script type="text/javascript" src="scriptindex.js"></script> -->
+        <!-- <script src="https://kit.fontawesome.com/16544f2866.js" crossorigin="anonymous"></script> -->
+        <!-- <script>
+
+            var el = document.querySelector('.menu-mobile-icon');
+            el.addEventListener('click', ()=>{
+                //Queremos mostrar o menu.
+                var menuItems = document.querySelector('.menu-items');
+                menuItems.classList.add('show');
+                if(menuItems.classList.contains('show')){
+                    menuItems.classList.add('hide');
+                    menuItems.classList.remove('show');
+                } else{
+                    menuItems.classList.add('show');
+                    menuItems.classList.remove('hide');
+                }
+            });
+        </script> -->
+    </body>
+</html>
